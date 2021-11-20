@@ -8,18 +8,18 @@
     </head>
     <body>
         <?php 
-            class Book {
+            class Book1 {
                 var $title;
                 var $author;
                 var $pages;
             }
 
-            $book1 = new Book; // object
+            $book1 = new Book1; // object
             $book1->title = "Harry Potter";
             $book1->author = "JK Rowling";
             $book1->pages = 400;
 
-            $book2 = new Book; // object
+            $book2 = new Book1; // object
             $book2->title = "Lord of the Rings";
             $book2->author = "Tolkien";
             $book2->pages = 700;
