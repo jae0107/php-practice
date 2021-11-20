@@ -21,6 +21,9 @@
             }
 
             $book1 = new Book("Harry Potter", "JK Rowling", 400); // object
+            echo $book1->title;
+            
+            $book1->title = "Hunger Games"; //edit
             $book2 = new Book("Lord of the Rings", "Tolkien", 700); // object
 
             echo $book1->title;
